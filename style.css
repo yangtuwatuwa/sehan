@@ -1,0 +1,253 @@
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    margin: 0px;
+    padding: 0px;
+}
+
+body header {
+    display: flex;
+    width: 100%;
+    height: 4rem;
+    justify-content: space-between;
+ 
+}
+
+body header nav {
+    display: flex;
+}
+body header nav ul {
+    display: flex;
+
+}
+
+body header nav ul li {
+    margin-left: 10px;
+
+}
+body header .iconShop ul{
+    display: flex;
+}
+
+body header nav .logo img{
+    width: 7rem;
+  margin-top: 10px;
+  margin-right: -10px;
+  margin-left: 10px;
+ 
+}
+
+body header img{
+    width: 30px;
+    padding-right: 10px;
+}
+
+a{
+    text-decoration: none;
+
+}
+
+ul {
+    list-style: none;
+}
+
+header .iconShop ul li:first-child {
+    margin-right: 20px;
+}
+
+body main .container1{
+    display: flex;
+    justify-content: center;
+}
+
+body main .logo2{
+    width: 100%;
+    height: 5rem;
+    margin-top: 40px;
+}
+
+body main .logo2 img{
+    width: 40px;
+}
+
+body main .logo2 ul li{
+    display: flex;
+    flex-direction: column;
+    margin-right:10px ;
+
+}
+body main .logo2 ul li img{
+    margin-left: 70px;
+}
+body main .logo2 ul{
+    display: flex;
+    justify-content: center;
+}
+body main .logo2 ul li a{
+    color: rgb(0, 102, 255);
+    margin-top: 5px;
+}
+/*hello world*/
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 23%;
+    overflow: hidden;
+}
+.card img {
+    width: 100%;
+    height: auto;
+}
+.card-content {
+    padding: 20px;
+}
+.card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 0 10px;
+}
+.card-description {
+    font-size: 14px;
+    color: #555;
+    margin: 0 0 20px;
+}
+.card-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0078d4;
+    color: white;
+    text-decoration: none;
+    border-radius: 3px;
+    font-size: 14px;
+}
+.card-button:hover {
+    background-color: #005a9e;
+}
+
+body main .container2{
+    display: flex;
+    justify-content: center ;
+    margin-top: 7rem;
+}
+
+/*hello 2*/
+
+.container3 {
+    width: 90%;
+    margin: 20px auto;
+}
+.container3 h1 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.container3 .card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    overflow: hidden;
+    width: 23%;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 1%;
+}
+.container3 .card img {
+    width: 100%;
+    height: auto;
+}
+.container3 .card-body {
+    padding: 15px;
+}
+.container3 .card-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.container3 .card-text {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+ .container3 .btn {
+    display: inline-block;
+    padding: 10px 15px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    background-color: #0078d4;
+    border: none;
+    border-radius: 3px;
+    text-decoration: none;
+}
+.container3 .btn:hover {
+    background-color: #005a9e;
+}
+
+footer {
+    background-color: #f2f2f2;
+    padding: 20px 0;
+    border-top: 1px solid #e1e1e1;
+}
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.footer-column {
+    flex: 1;
+    margin: 0 10px;
+}
+.footer-column h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #333;
+}
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.footer-column ul li {
+    margin-bottom: 8px;
+}
+.footer-column ul li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 14px;
+}
+.footer-bottom {
+    text-align: center;
+    padding: 10px 20px;
+    border-top: 1px solid #e1e1e1;
+    font-size: 12px;
+    color: #666;
+}
+.footer-bottom a {
+    text-decoration: none;
+    color: #666;
+    margin: 0 10px;
+}
+.footer-bottom img {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+.footer-bottom .privacy-options {
+    display: inline-block;
+    margin: 0 10px;
+}
+.footer-bottom .privacy-options img {
+    vertical-align: middle;
+}
